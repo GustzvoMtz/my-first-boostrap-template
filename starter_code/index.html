@@ -2,10 +2,172 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title E-comerce page</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-comerce page</title>
     <!--There are some bugs, please fix those before start your solution-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="./src/style.css">
 
 </head>
 <body>
-    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                Shop
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">All Products</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Popolar Items</a>
+                <a class="dropdown-item" href="#">New Arrivals</a>
+              </div>
+            </li>
+            
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Cart</button>
+          </form>
+        </div>
+    </nav>
+
+    <section>
+        <div class="jumbotron jumbotron-fluid Fondo1">
+            <div class="container text-center ">
+              <h1 class="display-4">Shop in style</h1>
+              <p class="lead">With this shop hompeage template</p>
+            </div>
+          </div>
+    </section>
+
+    <article class="container">
+        <div class="row">
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="borde_Cards card" style="width: 13rem;">
+                    <img src="./src/img/1.jpg" class="card-img-top" alt="...">
+                    <div class="mx-auto card-body">
+                      <h5 class="card-title text-center">Fancy Product</h5>
+                      <p class="card-text text-center">$40.00-$80.00</p>
+                      <a href="#" class=" btn btn-primary">View options</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="borde_Cards card" style="width: 13rem;">
+                    <img src="./src/img/2.jpg" class="card-img-top" alt="...">
+                    <div class="mx-auto card-body">
+                      <h5 class="text-center card-title">Special Item</h5>
+                      <p class="text-center card-text">$20.00 $18.00</p>
+                      <a href="#" class=" btn btn-primary">Add to cart</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="borde_Cards card" style="width: 13rem;">
+                    <img src="./src/img/3.png" class="card-img-top" alt="...">
+                    <div class="mx-auto card-body">
+                      <h5 class="text-center card-title">sale Item</h5>
+                      <p class="text-center card-text">$50.00 $25.00</p>
+                      <a href="#" class="btn btn-primary">Add to cart</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="borde_Cards card" style="width: 13rem;">
+                    <img src="./src/img/4.png" class="card-img-top" alt="...">
+                    <div class="mx-auto card-body">
+                      <h5 class="text-center card-title">Popular Item</h5>
+                      <p class="text-center card-text">$40.00</p>
+                      <a href="#" class="btn btn-primary">Add to cart</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="borde_Cards card" style="width: 13rem;">
+                    <img src="./src/img/5.jpg" class="card-img-top" alt="...">
+                    <div class="mx-auto card-body">
+                      <h5 class="text-center card-title">Sale Item</h5>
+                      <p class="text-center card-text">$50.00 $25.00</p>
+                      <a href="#" class="btn btn-primary">Add to cart</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="borde_Cards card" style="width: 13rem;">
+                    <img src="./src/img/6.jpg" class="card-img-top" alt="...">
+                    <div class="mx-auto card-body">
+                      <h5 class="text-center card-title">Fancy Product</h5>
+                      <p class="text-center card-text">$120.00-$280.00</p>
+                      <a href="#" class="btn btn-primary">View options</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="borde_Cards card" style="width: 13rem;">
+                    <img src="./src/img/7.jpg" class="card-img-top" alt="...">
+                    <div class="mx-auto card-body">
+                      <h5 class="text-center card-title">Special Item</h5>
+                      <p class="text-center card-text">$20.00 $18.00</p>
+                      <a href="#" class="btn btn-primary">Add to cart</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="borde_Cards card" style="width: 13rem;">
+                    <img src="./src/img/8.jfif" class="card-img-top" alt="...">
+                    <div class="mx-auto card-body">
+                      <h5 class="text-center card-title">Popular Item</h5>
+                      <p class="text-center card-text">$40.00</p>
+                      <a href="#" class="btn btn-primary">Add to cart</a>
+                    </div>
+                  </div>
+            </div>
+
+          
+
+        </div>
+
+    </article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
 </html>
+
+
